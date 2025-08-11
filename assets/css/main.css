@@ -139,9 +139,9 @@ body.dark-mode .section-title h2:after {
   position: relative;
   width: 120px;
   height: 120px;
-  background: #ffe0b3;
+  background: #007bff;
   border-radius: 50%;
-  box-shadow: inset -4px -4px 10px #e6b800;
+  box-shadow: inset -4px -4px 10px #0056b3;
   animation: nod 3s infinite;
 } 
 
