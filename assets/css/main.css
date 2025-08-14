@@ -139,9 +139,13 @@ body.dark-mode .section-title h2:after {
   position: relative;
   width: 120px;
   height: 120px;
-  background: #007bff;
+  background: linear-gradient(
+    30deg,
+    #000000,
+    #ff9900
+  );
   border-radius: 50%;
-  box-shadow: inset -4px -4px 10px #0056b3;
+  box-shadow: inset -4px -4px 10px #D68710;
   animation: nod 3s infinite;
 } 
 
@@ -247,7 +251,6 @@ body.dark-mode .page-slide {
     display: none;
     z-index: 1040;
 }
-
 .overlay.show {
     display: block;
 }
