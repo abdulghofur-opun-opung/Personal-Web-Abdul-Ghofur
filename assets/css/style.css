@@ -651,7 +651,12 @@ body.dark-mode .item-statistik i {
   font-size: 32px;
   font-weight: bold;
 }
-
+.row .list-unstyled li i{
+  color: var(--clr-aslB);
+}
+.dark-mode .row .list-unstyled li i{
+  color: var(--clr-aslK);
+}
 /*-----------------------------------------------------
 # Skills
 -----------------------------------------------------*/
@@ -1286,41 +1291,34 @@ body.dark-mode footer {
 /*-----------------------------------------------------
 # Scroll Top Button
 -----------------------------------------------------*/
-
-.scroll-top {
+#scroll-top {
   position: fixed;
-  visibility: hidden;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--before-aslB);
+  color: #f1f1f1;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
   opacity: 0;
-  right: 15px;
-  bottom: -15px;
-  z-index: 99999;
-  background-color: var(--accent-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  transition: all 0.4s;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.dark-mode #scroll-top {
+  background-color: var(--before-aslK);
 }
 
-.scroll-top i {
-  font-size: 24px;
-  color: var(--contrast-color);
-  line-height: 0;
+#scroll-top:hover {
+  background-color: var(--hover-aslB);
+}
+.dark-mode #scroll-top:hover {
+  background-color: var(--hover-aslK);
 }
 
-.scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
-}
-
-.scroll-top.active {
-  visibility: visible;
+#scroll-top.show {
   opacity: 1;
-  bottom: 15px;
+  visibility: visible;
 }
-
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
