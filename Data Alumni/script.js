@@ -92,7 +92,7 @@ if (lastSubmit) {
   const sevenDays = 7 * 24 * 60 * 60 * 1000; // 7 hari dalam ms
   if (diff < sevenDays) {
     const hoursLeft = Math.ceil((sevenDays - diff) / (1000 * 60 * 60));
-    alert(`Anda sudah mengirim form. Tunggu ${hoursLeft} jam sebelum mengirim lagi.`);
+    alert(`Mohon maaf, Untuk menghindari spam kami membatasi pengiriman data. Tunggu ${hoursLeft} jam sebelum mengirim lagi.`);
     // Disable form supaya tidak bisa diklik
     form.querySelectorAll("input, button, textarea").forEach(el => el.disabled = true);
   }
