@@ -11,7 +11,7 @@ document.getElementById("alumniForm").addEventListener("submit", function(e) {
   const lastSubmit = localStorage.getItem("lastSubmitTime");
   if (lastSubmit) {
     const diff = Date.now() - parseInt(lastSubmit);
-    const sevenDays = 1 * 24 * 60 * 60 * 1000; // 7 hari dalam ms
+    const sevenDays = 1 * 1 * 60 * 60 * 1000; // 7 hari dalam ms
     if (diff < sevenDays) {
       const hoursLeft = Math.ceil((sevenDays - diff) / (1000 * 60 * 60));
       alert(`Anda sudah mengirim form. Tunggu ${hoursLeft} jam sebelum mengirim lagi.`);
@@ -89,7 +89,7 @@ const form = document.forms['data-alumni-df'];
 const lastSubmit = localStorage.getItem("lastSubmitTime");
 if (lastSubmit) {
   const diff = Date.now() - parseInt(lastSubmit);
-  const sevenDays = 1 * 24 * 60 * 60 * 1000; // 7 hari dalam ms
+  const sevenDays = 1 * 1 * 60 * 60 * 1000; // 7 hari dalam ms
   if (diff < sevenDays) {
     const hoursLeft = Math.ceil((sevenDays - diff) / (1000 * 60 * 60));
     alert(`Mohon maaf, Untuk menghindari spam kami membatasi pengiriman data. Tunggu ${hoursLeft} jam sebelum mengirim lagi.`);
@@ -105,7 +105,7 @@ form.addEventListener('submit', e => {
   const lastSubmit = localStorage.getItem("lastSubmitTime");
   if (lastSubmit) {
     const diff = Date.now() - parseInt(lastSubmit);
-    const sevenDays = 1 * 24 * 60 * 60 * 1000;
+    const sevenDays = 1 * 1 * 60 * 60 * 1000;
     if (diff < sevenDays) {
       alert("Anda sudah mengirim form sebelumnya. Tunggu beberapa hari sebelum mengirim lagi.");
       return;
