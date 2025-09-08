@@ -51,44 +51,4 @@
       "purpose": "any"
     }
   ],
-
-  "screenshots": [
-    {
-      "src": "assets/screenshots/home-dark.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "label": "Tampilan Home (Dark Mode)"
-    },
-    {
-      "src": "assets/screenshots/home-light.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "label": "Tampilan Home (Light Mode)"
-    }
-  ],
-
-  "shortcuts": [
-    {
-      "name": "Koleksi",
-      "short_name": "Koleksi",
-      "description": "Lihat daftar karya dan koleksi Abdul Ghofur",
-      "url": "/#koleksi",
-      "icons": [{ "src": "assets/icons/icon-telepon.jpg", "sizes": "96x96" }]
-    },
-    {
-      "name": "Kontak",
-      "short_name": "Kontak",
-      "description": "Hubungi Abdul Ghofur dengan cepat",
-      "url": "/#contact",
-      "icons": [{ "src": "assets/icons/icon-telepon.jpg", "sizes": "96x96" }]
-    }
-  ],
-
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.ghofur.webapp"
-    }
-  ],
-  "prefer_related_applications": false
 }
