@@ -1,33 +1,113 @@
 {
   "name": "Abdul Ghofur | Personal Web",
-  "short_name": "Abdul Ghofur",
-  "description": "Abdul Ghofur Adalah aplikasi web yang berisi pengalaman diri saya",
+  "short_name": "Ghofur",
+  "description": "Website pribadi Abdul Ghofur berisi pengalaman, koleksi karya, coding, dan catatan kehidupan.",
+  "id": "com.ghofur.webapp",
   "start_url": "index.html",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "orientation": "portrait",
-  "scope": "/",
   "lang": "id-ID",
   "dir": "ltr",
+
   "categories": [
     "education",
+    "productivity",
     "personalization",
-    "productivity"
+    "portfolio",
+    "lifestyle"
   ],
+
   "icons": [
+    {
+      "src": "assets/icons/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "assets/icons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "assets/icons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
-  "id": "Ghofur",
-  "iarc_rating_id": "Minimal 18",
-  "prefer_related_applications": true
+
+  "screenshots": [
+    {
+      "src": "assets/screenshots/home-dark.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Tampilan Home (Dark Mode)"
+    },
+    {
+      "src": "assets/screenshots/home-light.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "label": "Tampilan Home (Light Mode)"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Koleksi",
+      "short_name": "Koleksi",
+      "description": "Lihat daftar karya dan koleksi Abdul Ghofur",
+      "url": "/#koleksi",
+      "icons": [{ "src": "assets/icons/koleksi.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Kontak",
+      "short_name": "Kontak",
+      "description": "Hubungi Abdul Ghofur dengan cepat",
+      "url": "/#contact",
+      "icons": [{ "src": "assets/icons/contact.png", "sizes": "96x96" }]
+    }
+  ],
+
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.ghofur.webapp"
+    }
+  ],
+  "prefer_related_applications": false
 }
