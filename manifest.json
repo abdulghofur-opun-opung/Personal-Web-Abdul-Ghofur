@@ -80,7 +80,7 @@
       "short_name": "Kontak",
       "description": "Hubungi Abdul Ghofur dengan cepat",
       "url": "/#contact",
-      "icons": [{ "src": "assets/icons/contact.png", "sizes": "96x96" }]
+      "icons": [{ "src": "assets/icons/icon-telepon.jpg", "sizes": "96x96" }]
     }
   ],
 
