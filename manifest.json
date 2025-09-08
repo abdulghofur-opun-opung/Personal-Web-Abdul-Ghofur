@@ -2,7 +2,7 @@
   "name": "Abdul Ghofur",
   "short_name": "Abd Ghofur",
   "description": "Abdul Ghofur Adalah aplikasi web yang berisi pengalaman diri saya",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
