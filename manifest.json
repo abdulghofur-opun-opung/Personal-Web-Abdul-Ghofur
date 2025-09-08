@@ -73,7 +73,7 @@
       "short_name": "Koleksi",
       "description": "Lihat daftar karya dan koleksi Abdul Ghofur",
       "url": "/#koleksi",
-      "icons": [{ "src": "assets/icons/koleksi.png", "sizes": "96x96" }]
+      "icons": [{ "src": "assets/icons/icon-telepon.jpg", "sizes": "96x96" }]
     },
     {
       "name": "Kontak",
